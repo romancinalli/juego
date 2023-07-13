@@ -1,0 +1,153 @@
+ 
+
+ body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+#header {
+  height: 30%;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+#colorDisplay{
+  font-size: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  background-color: steelblue;
+  padding: 15px 0 15px 0;
+}
+
+#message{
+  color: black;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.stripe {
+  background-color: white;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  margin-bottom: 3%;
+}
+
+.item1 {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  left:10%;
+}
+
+.item2 {
+  display: flex;
+  justify-content: center;
+}
+
+.item3 {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+
+
+button{
+  border: none;
+  background-color: white;
+  height:100%;
+  color: steelblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+#reset {
+  margin-right: 15%;
+
+} 
+
+#message{
+  display: flex;
+  justify-content: start;
+}
+
+.selected{
+  background: steelblue;
+  color: white
+}
+
+.square {
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  background-color: burlywood;
+  margin: 5px;
+  border-radius: 5%;
+  cursor: pointer;
+  
+}
+
+@media screen and (max-width: 850px) {
+  .item1 {
+    justify-content: center;
+  }
+  
+  .item3 {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .item1 {
+    justify-content: start;
+  }
+  
+  .item3 {
+    justify-content: end;
+  }
+  #message{
+    font-size: 10px;
+  }
+  
+}
+@media screen and (max-width: 500px){
+  h1{
+    font-size: 20px;
+  }
+  #colorDisplay{
+    font-size: 30px;
+  }
+  button{
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
